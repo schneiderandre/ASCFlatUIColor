@@ -18,7 +18,7 @@
     return [UIColor colorWithRed:22/255.f green:160/255.f blue:133/255.f alpha:1.000];
 }
 
-+ (UIColor *)emerland {
++ (UIColor *)emerald {
     return [UIColor colorWithRed:46/255.f green:204/255.f blue:113/255.f alpha:1.000];
 }
 
@@ -58,7 +58,7 @@
     return [UIColor colorWithRed:211/255.f green:84/255.f blue:0/255.f alpha:1.000];
 }
 
-+ (UIColor *)alazarin {
++ (UIColor *)alizarin {
     return [UIColor colorWithRed:231/255.f green:76/255.f blue:60/255.f alpha:1.000];
 }
 
@@ -88,6 +88,73 @@
 
 + (UIColor *)midnightBlue {
     return [UIColor colorWithRed:44/255.f green:62/255.f blue:80/255.f alpha:1.000];
+}
+
++ (UIColor *)colorWithFlatUIColorType:(FlatUIColorType)type {
+    switch (type) {
+        case FlatUIColorTypeAlizarin:
+            return [UIColor alizarin];
+            break;
+        case FlatUIColorTypeAmethyst:
+            return [UIColor amethyst];
+            break;
+        case FlatUIColorTypeAsbestos:
+            return [UIColor asbestos];
+            break;
+        case FlatUIColorTypeBelizeHole:
+            return [UIColor belizeHole];
+            break;
+        case FlatUIColorTypeCarrot:
+            return [UIColor carrot];
+            break;
+        case FlatUIColorTypeClouds:
+            return [UIColor clouds];
+            break;
+        case FlatUIColorTypeConcrete:
+            return [UIColor concrete];
+            break;
+        case FlatUIColorTypeEmerald:
+            return [UIColor emerald];
+            break;
+        case FlatUIColorTypeGreenSea:
+            return [UIColor greenSea];
+            break;
+        case FlatUIColorTypeMidnightBlue:
+            return [UIColor midnightBlue];
+            break;
+        case FlatUIColorTypeNephritis:
+            return [UIColor nephritis];
+            break;
+        case FlatUIColorTypeOrange:
+            return [UIColor orange];
+            break;
+        case FlatUIColorTypePeterRiver:
+            return [UIColor peterRiver];
+            break;
+        case FlatUIColorTypePomegranate:
+            return [UIColor pomegranate];
+            break;
+        case FlatUIColorTypePumpkin:
+            return [UIColor pumpkin];
+            break;
+        case FlatUIColorTypeSilver:
+            return [UIColor silver];
+            break;
+        case FlatUIColorTypeSunFlower:
+            return [UIColor sunFlower];
+            break;
+        case FlatUIColorTypeTurquoise:
+            return [UIColor turquoise];
+            break;
+        case FlatUIColorTypeWetAsphalt:
+            return [UIColor wetAsphalt];
+            break;
+        case FlatUIColorTypeWisteria:
+            return [UIColor wisteria];
+            break;
+        default:
+            break;
+    }
 }
 
 @end

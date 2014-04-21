@@ -8,11 +8,34 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, FlatUIColorType) {
+    FlatUIColorTypeTurquoise,
+    FlatUIColorTypeGreenSea,
+    FlatUIColorTypeEmerald,
+    FlatUIColorTypeNephritis,
+    FlatUIColorTypePeterRiver,
+    FlatUIColorTypeBelizeHole,
+    FlatUIColorTypeAmethyst,
+    FlatUIColorTypeWisteria,
+    FlatUIColorTypeSunFlower,
+    FlatUIColorTypeOrange,
+    FlatUIColorTypeCarrot,
+    FlatUIColorTypePumpkin,
+    FlatUIColorTypeAlizarin,
+    FlatUIColorTypePomegranate,
+    FlatUIColorTypeClouds,
+    FlatUIColorTypeSilver,
+    FlatUIColorTypeConcrete,
+    FlatUIColorTypeAsbestos,
+    FlatUIColorTypeWetAsphalt,
+    FlatUIColorTypeMidnightBlue
+};
+
 @interface UIColor (ASCFlatUIColors)
 
 + (UIColor *)turquoise;
 + (UIColor *)greenSea;
-+ (UIColor *)emerland;
++ (UIColor *)emerald;
 + (UIColor *)nephritis;
 + (UIColor *)peterRiver;
 + (UIColor *)belizeHole;
@@ -22,7 +45,7 @@
 + (UIColor *)orange;
 + (UIColor *)carrot;
 + (UIColor *)pumpkin;
-+ (UIColor *)alazarin;
++ (UIColor *)alizarin;
 + (UIColor *)pomegranate;
 + (UIColor *)clouds;
 + (UIColor *)silver;
@@ -30,5 +53,7 @@
 + (UIColor *)asbestos;
 + (UIColor *)wetAsphalt;
 + (UIColor *)midnightBlue;
+
++ (UIColor *)colorWithFlatUIColorType:(FlatUIColorType)type;
 
 @end
