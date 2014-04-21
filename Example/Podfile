@@ -1,4 +1,4 @@
-pod "ASCFlatUIColors", :path => "../"
+pod "ASCFlatUIColor", :path => "../"
 
 target "ASCFlatUIColorsTests" do
 	pod "Specta"

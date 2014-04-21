@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## ASCFlatUIColors
+## ASCFlatUIColor
 
 Copyright (c) 2014 André Schneider <hello@andreschneider.me>
 

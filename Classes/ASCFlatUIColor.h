@@ -1,12 +1,12 @@
 //
-//  UIColor+ASCFlatUIColors.h
+//  ASCFlatUIColor.h
 //  ASCFlatUIColors
 //
 //  Created by André Schneider on 21.04.14.
 //  Copyright (c) 2014 André Schneider. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSInteger, FlatUIColorType) {
     FlatUIColorTypeTurquoise,
@@ -31,7 +31,7 @@ typedef NS_ENUM(NSInteger, FlatUIColorType) {
     FlatUIColorTypeMidnightBlue
 };
 
-@interface UIColor (ASCFlatUIColors)
+@interface ASCFlatUIColor : NSObject
 
 + (UIColor *)turquoiseColor;
 + (UIColor *)greenSeaColor;

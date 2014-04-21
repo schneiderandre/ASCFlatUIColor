@@ -1,19 +1,7 @@
-#
-# Be sure to run `pod lib lint NAME.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 Pod::Spec.new do |s|
-  s.name             = "ASCFlatUIColors"
+  s.name             = "ASCFlatUIColor"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ASCFlatUIColors."
-  s.description      = <<-DESC
-                       An optional longer description of ASCFlatUIColors
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
+  s.summary          = "A short description of ASCFlatUIColor."
   s.homepage         = "http://EXAMPLE/NAME"
   s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'

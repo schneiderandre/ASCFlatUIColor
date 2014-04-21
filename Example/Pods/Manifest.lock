@@ -1,19 +1,19 @@
 PODS:
-  - ASCFlatUIColors (0.1.0)
+  - ASCFlatUIColor (0.1.0)
   - Expecta (0.3.0)
   - Specta (0.2.1)
 
 DEPENDENCIES:
-  - ASCFlatUIColors (from `../`)
+  - ASCFlatUIColor (from `../`)
   - Expecta
   - Specta
 
 EXTERNAL SOURCES:
-  ASCFlatUIColors:
+  ASCFlatUIColor:
     :path: ../
 
 SPEC CHECKSUMS:
-  ASCFlatUIColors: 388f6925d5f043f311700bfc9aa301a8fea2efbd
+  ASCFlatUIColor: 03e96fbb50d04bc6222d4957405b8edc1b9588ab
   Expecta: 322f1dc42610106a5ba9871b4924cf1635d80833
   Specta: 2d06220591110c6d9757d8be8ecf8e63aa40dc2a
 

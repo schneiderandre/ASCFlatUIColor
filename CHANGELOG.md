@@ -1,4 +1,4 @@
-# ASCFlatUIColors CHANGELOG
+# ASCFlatUIColor CHANGELOG
 
 ## 0.1.0
 
