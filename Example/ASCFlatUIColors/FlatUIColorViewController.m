@@ -7,7 +7,12 @@
 //
 
 #import "FlatUIColorViewController.h"
+#import "FlatUIColorCollectionViewCell.h"
 #import <ASCFlatUIColor/ASCFlatUIColor.h>
+
+@interface FlatUIColorViewController()
+@property (nonatomic) NSArray *flatUIColors;
+@end
 
 @implementation FlatUIColorViewController
 
@@ -16,7 +21,30 @@
     [super viewDidLoad];
     self.title = @"Flat UI Colors";
     self.collectionView.backgroundColor = [UIColor whiteColor];
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"colorCell"];
+
+    self.flatUIColors = @[@"TURQUOISE",
+                          @"GREEN SEA",
+                          @"EMERALD",
+                          @"NEPHRITIS",
+                          @"PETER RIVER",
+                          @"BELIZE HOLE",
+                          @"AMETHYST",
+                          @"WISTERIA",
+                          @"WET ASPHALT",
+                          @"MIDNIGHT BLUE",
+                          @"SUN FLOWER",
+                          @"ORANGE",
+                          @"CARROT",
+                          @"PUMPKIN",
+                          @"ALIZARIN",
+                          @"POMEGRANATE",
+                          @"CLOUDS",
+                          @"SILVER",
+                          @"CONCRETE",
+                          @"ASBESTOS"];
+
+    [self.collectionView registerClass:[FlatUIColorCollectionViewCell class]
+            forCellWithReuseIdentifier:@"colorCell"];
 }
 
 #pragma mark -
@@ -25,16 +53,17 @@
 -(NSInteger)collectionView:(UICollectionView *)collectionView
     numberOfItemsInSection:(NSInteger)section
 {
-    return 20;
+    return [self.flatUIColors count];
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
                  cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    UICollectionViewCell *cell = [collectionView
-                                  dequeueReusableCellWithReuseIdentifier:@"colorCell"
-                                  forIndexPath:indexPath];
+    FlatUIColorCollectionViewCell *cell = [collectionView
+                                           dequeueReusableCellWithReuseIdentifier:@"colorCell"
+                                           forIndexPath:indexPath];
     cell.contentView.backgroundColor = [ASCFlatUIColor colorWithFlatUIColorType:indexPath.row];
+    cell.titleLabel.text = self.flatUIColors[indexPath.row];
 
     return cell;
 }

@@ -22,6 +22,7 @@
 		B73FF64619057202000D4EAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B73FF64419057202000D4EAE /* InfoPlist.strings */; };
 		B7A4F5221905A42500048F0F /* ASCFlatUIColorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A4F5211905A42500048F0F /* ASCFlatUIColorSpec.m */; };
 		B7A4F5251905B1B300048F0F /* FlatUIColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A4F5241905B1B300048F0F /* FlatUIColorViewController.m */; };
+		B7A4F5281905B67100048F0F /* FlatUIColorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A4F5271905B67100048F0F /* FlatUIColorCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		B7A4F5211905A42500048F0F /* ASCFlatUIColorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCFlatUIColorSpec.m; sourceTree = "<group>"; };
 		B7A4F5231905B1B300048F0F /* FlatUIColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatUIColorViewController.h; sourceTree = "<group>"; };
 		B7A4F5241905B1B300048F0F /* FlatUIColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatUIColorViewController.m; sourceTree = "<group>"; };
+		B7A4F5261905B67100048F0F /* FlatUIColorCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatUIColorCollectionViewCell.h; sourceTree = "<group>"; };
+		B7A4F5271905B67100048F0F /* FlatUIColorCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatUIColorCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,8 @@
 				B73FF62919057202000D4EAE /* Supporting Files */,
 				B7A4F5231905B1B300048F0F /* FlatUIColorViewController.h */,
 				B7A4F5241905B1B300048F0F /* FlatUIColorViewController.m */,
+				B7A4F5261905B67100048F0F /* FlatUIColorCollectionViewCell.h */,
+				B7A4F5271905B67100048F0F /* FlatUIColorCollectionViewCell.m */,
 			);
 			path = ASCFlatUIColors;
 			sourceTree = "<group>";
@@ -324,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73FF63319057202000D4EAE /* AppDelegate.m in Sources */,
+				B7A4F5281905B67100048F0F /* FlatUIColorCollectionViewCell.m in Sources */,
 				B73FF62F19057202000D4EAE /* main.m in Sources */,
 				B7A4F5251905B1B300048F0F /* FlatUIColorViewController.m in Sources */,
 			);

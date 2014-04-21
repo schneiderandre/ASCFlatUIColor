@@ -17,6 +17,8 @@ typedef NS_ENUM(NSInteger, FlatUIColorType) {
     FlatUIColorTypeBelizeHole,
     FlatUIColorTypeAmethyst,
     FlatUIColorTypeWisteria,
+    FlatUIColorTypeWetAsphalt,
+    FlatUIColorTypeMidnightBlue,
     FlatUIColorTypeSunFlower,
     FlatUIColorTypeOrange,
     FlatUIColorTypeCarrot,
@@ -26,9 +28,7 @@ typedef NS_ENUM(NSInteger, FlatUIColorType) {
     FlatUIColorTypeClouds,
     FlatUIColorTypeSilver,
     FlatUIColorTypeConcrete,
-    FlatUIColorTypeAsbestos,
-    FlatUIColorTypeWetAsphalt,
-    FlatUIColorTypeMidnightBlue
+    FlatUIColorTypeAsbestos
 };
 
 @interface ASCFlatUIColor : NSObject
