@@ -33,26 +33,26 @@ typedef NS_ENUM(NSInteger, FlatUIColorType) {
 
 @interface UIColor (ASCFlatUIColors)
 
-+ (UIColor *)turquoise;
-+ (UIColor *)greenSea;
-+ (UIColor *)emerald;
-+ (UIColor *)nephritis;
-+ (UIColor *)peterRiver;
-+ (UIColor *)belizeHole;
-+ (UIColor *)amethyst;
-+ (UIColor *)wisteria;
-+ (UIColor *)sunFlower;
-+ (UIColor *)orange;
-+ (UIColor *)carrot;
-+ (UIColor *)pumpkin;
-+ (UIColor *)alizarin;
-+ (UIColor *)pomegranate;
-+ (UIColor *)clouds;
-+ (UIColor *)silver;
-+ (UIColor *)concrete;
-+ (UIColor *)asbestos;
-+ (UIColor *)wetAsphalt;
-+ (UIColor *)midnightBlue;
++ (UIColor *)turquoiseColor;
++ (UIColor *)greenSeaColor;
++ (UIColor *)emeraldColor;
++ (UIColor *)nephritisColor;
++ (UIColor *)peterRiverColor;
++ (UIColor *)belizeHoleColor;
++ (UIColor *)amethystColor;
++ (UIColor *)wisteriaColor;
++ (UIColor *)sunFlowerColor;
++ (UIColor *)orangeColor;
++ (UIColor *)carrotColor;
++ (UIColor *)pumpkinColor;
++ (UIColor *)alizarinColor;
++ (UIColor *)pomegranateColor;
++ (UIColor *)cloudsColor;
++ (UIColor *)silverColor;
++ (UIColor *)concreteColor;
++ (UIColor *)asbestosColor;
++ (UIColor *)wetAsphaltColor;
++ (UIColor *)midnightBlueColor;
 
 + (UIColor *)colorWithFlatUIColorType:(FlatUIColorType)type;
 
