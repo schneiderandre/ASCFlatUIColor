@@ -10,25 +10,25 @@
 
 @interface UIColor (ASCFlatUIColors)
 
-+(UIColor*)turquoise;
-+(UIColor*)greenSea;
-+(UIColor*)emerland;
-+(UIColor*)nephritis;
-+(UIColor*)peterRiver;
-+(UIColor*)belizeHole;
-+(UIColor*)amethyst;
-+(UIColor*)wisteria;
-+(UIColor*)sunFlower;
-+(UIColor*)orange;
-+(UIColor*)carrot;
-+(UIColor*)pumpkin;
-+(UIColor*)alazarin;
-+(UIColor*)pomegranate;
-+(UIColor*)clouds;
-+(UIColor*)silver;
-+(UIColor*)concrete;
-+(UIColor*)asbestos;
-+(UIColor*)wetAsphalt;
-+(UIColor*)midnightBlue;
++ (UIColor *)turquoise;
++ (UIColor *)greenSea;
++ (UIColor *)emerland;
++ (UIColor *)nephritis;
++ (UIColor *)peterRiver;
++ (UIColor *)belizeHole;
++ (UIColor *)amethyst;
++ (UIColor *)wisteria;
++ (UIColor *)sunFlower;
++ (UIColor *)orange;
++ (UIColor *)carrot;
++ (UIColor *)pumpkin;
++ (UIColor *)alazarin;
++ (UIColor *)pomegranate;
++ (UIColor *)clouds;
++ (UIColor *)silver;
++ (UIColor *)concrete;
++ (UIColor *)asbestos;
++ (UIColor *)wetAsphalt;
++ (UIColor *)midnightBlue;
 
 @end
