@@ -1,0 +1,6 @@
+language: objective-c
+before_install: gem install xcpretty -N
+script:
+- cd Example
+- set -o pipefail
+- xcodebuild -workspace ASCFlatUIColors.xcworkspace -scheme ASCFlatUIColors -sdk iphonesimulator test | xcpretty -c
