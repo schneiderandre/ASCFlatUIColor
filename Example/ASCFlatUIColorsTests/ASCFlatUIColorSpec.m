@@ -13,129 +13,129 @@
 
 SpecBegin(ASCFlatUIColor)
 
-describe(@"turqiose", ^{
+describe(@"turquoiseColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor turquoiseColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"greenSea", ^{
+describe(@"greenSeaColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor greenSeaColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"emerland", ^{
+describe(@"emeraldColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor emeraldColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"nephritis", ^{
+describe(@"nephritisColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor nephritisColor]).to.beKindOf([UIColor class]);
     });
 });
 
 
-describe(@"peterRiver", ^{
+describe(@"peterRiverColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor peterRiverColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"belizeHole", ^{
+describe(@"belizeHoleColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor belizeHoleColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"amethyst", ^{
+describe(@"amethystColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor amethystColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"wisteria", ^{
+describe(@"wisteriaColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor wisteriaColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"sunFlower", ^{
+describe(@"sunFlowerColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor sunFlowerColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"orange", ^{
+describe(@"orangeColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor orangeColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"carrot", ^{
+describe(@"carrotColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor carrotColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"pumpkin", ^{
+describe(@"pumpkinColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor pumpkinColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"alazarin", ^{
+describe(@"alizarinColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor alizarinColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"pomegranate", ^{
+describe(@"pomegranateColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor pomegranateColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"clouds", ^{
+describe(@"cloudsColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor cloudsColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"silver", ^{
+describe(@"silverColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor silverColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"concrete", ^{
+describe(@"concreteColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor concreteColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"asbestos", ^{
+describe(@"turquoiseColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor turquoiseColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"wetAsphalt", ^{
+describe(@"wetAsphaltColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor wetAsphaltColor]).to.beKindOf([UIColor class]);
     });
 });
 
-describe(@"midnightBlue", ^{
+describe(@"midnightBlueColor", ^{
     it(@"returns a color", ^{
         expect([ASCFlatUIColor midnightBlueColor]).to.beKindOf([UIColor class]);
     });
 });
 
 
-describe(@"flatUIColor", ^{
+describe(@"colorWithFlatUIColorType", ^{
     it(@"returns turquoise", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:FlatUIColorTypeTurquoise];
         expect(color).to.equal([ASCFlatUIColor turquoiseColor]);
