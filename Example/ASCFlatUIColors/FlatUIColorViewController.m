@@ -50,18 +50,18 @@
 #pragma mark -
 #pragma mark UICollectionViewDataSource
 
--(NSInteger)collectionView:(UICollectionView *)collectionView
-    numberOfItemsInSection:(NSInteger)section
+- (NSInteger)collectionView:(UICollectionView *)collectionView
+     numberOfItemsInSection:(NSInteger)section
 {
     return [self.flatUIColors count];
 }
 
--(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
-                 cellForItemAtIndexPath:(NSIndexPath *)indexPath
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
+                  cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     FlatUIColorCollectionViewCell *cell = [collectionView
                                            dequeueReusableCellWithReuseIdentifier:@"colorCell"
-                                           forIndexPath:indexPath];
+                                                                     forIndexPath:indexPath];
     cell.contentView.backgroundColor = [ASCFlatUIColor colorWithFlatUIColorType:indexPath.row];
     cell.titleLabel.text = self.flatUIColors[indexPath.row];
 
