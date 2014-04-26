@@ -136,102 +136,102 @@ describe(@"midnightBlueColor", ^{
 
 
 describe(@"colorWithFlatUIColorType", ^{
-    it(@"returns turquoise", ^{
+    it(@"returns turquoiseColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeTurquoise];
         expect(color).to.equal([ASCFlatUIColor turquoiseColor]);
     });
 
-    it(@"returns greenSea", ^{
+    it(@"returns greenSeaColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeGreenSea];
         expect(color).to.equal([ASCFlatUIColor greenSeaColor]);
     });
 
-    it(@"returns emerald", ^{
+    it(@"returns emeraldColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeEmerald];
         expect(color).to.equal([ASCFlatUIColor emeraldColor]);
     });
 
-    it(@"returns nephritis", ^{
+    it(@"returns nephritisColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeNephritis];
         expect(color).to.equal([ASCFlatUIColor nephritisColor]);
     });
 
-    it(@"returns peterRiver", ^{
+    it(@"returns peterRiverColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypePeterRiver];
         expect(color).to.equal([ASCFlatUIColor peterRiverColor]);
     });
 
-    it(@"returns belizeHole", ^{
+    it(@"returns belizeHoleColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeBelizeHole];
         expect(color).to.equal([ASCFlatUIColor belizeHoleColor]);
     });
 
-    it(@"returns amethyst", ^{
+    it(@"returns amethystColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeAmethyst];
         expect(color).to.equal([ASCFlatUIColor amethystColor]);
     });
 
-    it(@"returns wisteria", ^{
+    it(@"returns wisteriaColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeWisteria];
         expect(color).to.equal([ASCFlatUIColor wisteriaColor]);
     });
 
-    it(@"returns sunFlower", ^{
+    it(@"returns sunFlowerColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeSunFlower];
         expect(color).to.equal([ASCFlatUIColor sunFlowerColor]);
     });
 
-    it(@"returns orange", ^{
+    it(@"returns orangeColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeOrange];
         expect(color).to.equal([ASCFlatUIColor orangeColor]);
     });
 
-    it(@"returns carrot", ^{
+    it(@"returns carrotColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeCarrot];
         expect(color).to.equal([ASCFlatUIColor carrotColor]);
     });
 
-    it(@"returns pumpkin", ^{
+    it(@"returns pumpkinColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypePumpkin];
         expect(color).to.equal([ASCFlatUIColor pumpkinColor]);
     });
 
-    it(@"returns alizarin", ^{
+    it(@"returns alizarinColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeAlizarin];
         expect(color).to.equal([ASCFlatUIColor alizarinColor]);
     });
 
-    it(@"returns pomegranate", ^{
+    it(@"returns pomegranateColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypePomegranate];
         expect(color).to.equal([ASCFlatUIColor pomegranateColor]);
     });
 
-    it(@"returns clouds", ^{
+    it(@"returns cloudsColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeClouds];
         expect(color).to.equal([ASCFlatUIColor cloudsColor]);
     });
 
-    it(@"returns silver", ^{
+    it(@"returns silverColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeSilver];
         expect(color).to.equal([ASCFlatUIColor silverColor]);
     });
 
-    it(@"returns concrete", ^{
+    it(@"returns concreteColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeConcrete];
         expect(color).to.equal([ASCFlatUIColor concreteColor]);
     });
 
-    it(@"returns asbestos", ^{
+    it(@"returns asbestosColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeAsbestos];
         expect(color).to.equal([ASCFlatUIColor asbestosColor]);
     });
 
-    it(@"returns wetAsphalt", ^{
+    it(@"returns wetAsphaltColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeWetAsphalt];
         expect(color).to.equal([ASCFlatUIColor wetAsphaltColor]);
     });
 
-    it(@"returns midnightBlue", ^{
+    it(@"returns midnightBlueColor", ^{
         UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeMidnightBlue];
         expect(color).to.equal([ASCFlatUIColor midnightBlueColor]);
     });
