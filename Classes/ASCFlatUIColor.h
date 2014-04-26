@@ -8,27 +8,27 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSInteger, FlatUIColorType) {
-    FlatUIColorTypeTurquoise,
-    FlatUIColorTypeGreenSea,
-    FlatUIColorTypeEmerald,
-    FlatUIColorTypeNephritis,
-    FlatUIColorTypePeterRiver,
-    FlatUIColorTypeBelizeHole,
-    FlatUIColorTypeAmethyst,
-    FlatUIColorTypeWisteria,
-    FlatUIColorTypeWetAsphalt,
-    FlatUIColorTypeMidnightBlue,
-    FlatUIColorTypeSunFlower,
-    FlatUIColorTypeOrange,
-    FlatUIColorTypeCarrot,
-    FlatUIColorTypePumpkin,
-    FlatUIColorTypeAlizarin,
-    FlatUIColorTypePomegranate,
-    FlatUIColorTypeClouds,
-    FlatUIColorTypeSilver,
-    FlatUIColorTypeConcrete,
-    FlatUIColorTypeAsbestos
+typedef NS_ENUM(NSInteger, ASCFlatUIColorType) {
+    ASCFlatUIColorTypeTurquoise,
+    ASCFlatUIColorTypeGreenSea,
+    ASCFlatUIColorTypeEmerald,
+    ASCFlatUIColorTypeNephritis,
+    ASCFlatUIColorTypePeterRiver,
+    ASCFlatUIColorTypeBelizeHole,
+    ASCFlatUIColorTypeAmethyst,
+    ASCFlatUIColorTypeWisteria,
+    ASCFlatUIColorTypeWetAsphalt,
+    ASCFlatUIColorTypeMidnightBlue,
+    ASCFlatUIColorTypeSunFlower,
+    ASCFlatUIColorTypeOrange,
+    ASCFlatUIColorTypeCarrot,
+    ASCFlatUIColorTypePumpkin,
+    ASCFlatUIColorTypeAlizarin,
+    ASCFlatUIColorTypePomegranate,
+    ASCFlatUIColorTypeClouds,
+    ASCFlatUIColorTypeSilver,
+    ASCFlatUIColorTypeConcrete,
+    ASCFlatUIColorTypeAsbestos
 };
 
 @interface ASCFlatUIColor : NSObject
@@ -54,6 +54,6 @@ typedef NS_ENUM(NSInteger, FlatUIColorType) {
 + (UIColor *)wetAsphaltColor;
 + (UIColor *)midnightBlueColor;
 
-+ (UIColor *)colorWithFlatUIColorType:(FlatUIColorType)type;
++ (UIColor *)colorWithFlatUIColorType:(ASCFlatUIColorType)type;
 
 @end

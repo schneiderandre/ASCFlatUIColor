@@ -90,66 +90,66 @@
     return [UIColor colorWithRed:44/255.f green:62/255.f blue:80/255.f alpha:1.000];
 }
 
-+ (UIColor *)colorWithFlatUIColorType:(FlatUIColorType)type {
++ (UIColor *)colorWithFlatUIColorType:(ASCFlatUIColorType)type {
     switch (type) {
-        case FlatUIColorTypeAlizarin:
+        case ASCFlatUIColorTypeAlizarin:
             return [self alizarinColor];
             break;
-        case FlatUIColorTypeAmethyst:
+        case ASCFlatUIColorTypeAmethyst:
             return [self amethystColor];
             break;
-        case FlatUIColorTypeAsbestos:
+        case ASCFlatUIColorTypeAsbestos:
             return [self asbestosColor];
             break;
-        case FlatUIColorTypeBelizeHole:
+        case ASCFlatUIColorTypeBelizeHole:
             return [self belizeHoleColor];
             break;
-        case FlatUIColorTypeCarrot:
+        case ASCFlatUIColorTypeCarrot:
             return [self carrotColor];
             break;
-        case FlatUIColorTypeClouds:
+        case ASCFlatUIColorTypeClouds:
             return [self cloudsColor];
             break;
-        case FlatUIColorTypeConcrete:
+        case ASCFlatUIColorTypeConcrete:
             return [self concreteColor];
             break;
-        case FlatUIColorTypeEmerald:
+        case ASCFlatUIColorTypeEmerald:
             return [self emeraldColor];
             break;
-        case FlatUIColorTypeGreenSea:
+        case ASCFlatUIColorTypeGreenSea:
             return [self greenSeaColor];
             break;
-        case FlatUIColorTypeMidnightBlue:
+        case ASCFlatUIColorTypeMidnightBlue:
             return [self midnightBlueColor];
             break;
-        case FlatUIColorTypeNephritis:
+        case ASCFlatUIColorTypeNephritis:
             return [self nephritisColor];
             break;
-        case FlatUIColorTypeOrange:
+        case ASCFlatUIColorTypeOrange:
             return [self orangeColor];
             break;
-        case FlatUIColorTypePeterRiver:
+        case ASCFlatUIColorTypePeterRiver:
             return [self peterRiverColor];
             break;
-        case FlatUIColorTypePomegranate:
+        case ASCFlatUIColorTypePomegranate:
             return [self pomegranateColor];
             break;
-        case FlatUIColorTypePumpkin:
+        case ASCFlatUIColorTypePumpkin:
             return [self pumpkinColor];
             break;
-        case FlatUIColorTypeSilver:
+        case ASCFlatUIColorTypeSilver:
             return [self silverColor];
             break;
-        case FlatUIColorTypeSunFlower:
+        case ASCFlatUIColorTypeSunFlower:
             return [self sunFlowerColor];
             break;
-        case FlatUIColorTypeTurquoise:
+        case ASCFlatUIColorTypeTurquoise:
             return [self turquoiseColor];
             break;
-        case FlatUIColorTypeWetAsphalt:
+        case ASCFlatUIColorTypeWetAsphalt:
             return [self wetAsphaltColor];
             break;
-        case FlatUIColorTypeWisteria:
+        case ASCFlatUIColorTypeWisteria:
             return [self wisteriaColor];
             break;
         default:
