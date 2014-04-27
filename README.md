@@ -13,6 +13,8 @@ The complete list can also be found at [flatuicolors.com](http://flatuicolors.co
 
 ## Usage
 
+This repository contains an example project that uses the methods provided by ASCFlatUIColor - just build and run to see all colors in a simple collection view.
+
 Wherever you want to use ASCFlatUIColor, import the header file as follows:
 
 ``` objective-c
@@ -33,7 +35,9 @@ or use the convenience class method `colorWithFlatUIColorType:` and pass an enum
 ```objective-c
 UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeEmerald];
 ```
-The second approach is very handy if you want to use a color based on a type or return a random color at runtime.
+The second approach comes in handy if you want to use a color based on a type or return a random color at runtime.
+
+Unit tests should serve as an additional documentation.
 
 __Why it's not an UIColor Category?__
 
