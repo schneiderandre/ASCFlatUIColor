@@ -5,6 +5,12 @@
 
 A collection of all Flat UI Colors used in [Flat UI](http://designmodo.github.io/Flat-UI/).
 
+![](https://dl.dropboxusercontent.com/u/19150300/Github/ASCFlatUIColor/iphone_white_1.png)
+
+![](https://dl.dropboxusercontent.com/u/19150300/Github/ASCFlatUIColor/iphone_white_2.png)
+
+The complete list can also be found at [flatuicolors.com](http://flatuicolors.com).
+
 ## Usage
 
 Wherever you want to use ASCFlatUIColor, import the header file as follows:
@@ -16,6 +22,22 @@ or when using CocoaPods:
 ``` objective-c
 #import <ASCFlatUIColor/ASCFlatUIColor.h>
 ```
+
+To get a color simply call the matching class method:
+
+```objective-c
+UIColor *color = [ASCFlatUIColor emeraldColor];
+```
+or use the convenience class method `colorWithFlatUIColorType:` and pass an enumerated value to return a color.
+
+```objective-c
+UIColor *color = [ASCFlatUIColor colorWithFlatUIColorType:ASCFlatUIColorTypeEmerald];
+```
+The second approach is very handy if you want to use a color based on a type or return a random color at runtime.
+
+__Why it's not an UIColor Category?__
+
+In short: To avoid to prefix all methods. But if you would prefer a Category just create an issue.
 
 ## Installation
 
