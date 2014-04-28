@@ -1,7 +1,8 @@
 # ASCFlatUIColor
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/ASCFlatUIColor/badge.png)](http://cocoadocs.org/docsets/ASCFlatUIColor)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/ASCFlatUIColor/badge.png)](http://cocoadocs.org/docsets/ASCFlatUIColor)
+[![Build Status](https://travis-ci.org/schneiderandre/ASCFlatUIColor.svg?branch=master)](https://travis-ci.org/schneiderandre/ASCFlatUIColor)
+[![Version](http://img.shields.io/cocoapods/v/ASCFlatUIColor.svg)](http://cocoadocs.org/docsets/ASCFlatUIColor)
+[![Platform](http://img.shields.io/badge/platform-iOS-blue.svg)](http://cocoadocs.org/docsets/ASCFlatUIColor)
 
 A collection of all Flat UI Colors used in [Flat UI](http://designmodo.github.io/Flat-UI/).
 
