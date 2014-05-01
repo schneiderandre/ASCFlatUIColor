@@ -7,6 +7,7 @@
 //
 
 #import "FlatUIColorCollectionViewCell.h"
+#import <ASCFlatUIColor/ASCFlatUIColor.h>
 
 @implementation FlatUIColorCollectionViewCell
 
@@ -30,7 +31,7 @@
                                             CGRectGetHeight(self.contentView.bounds));
 
         self.titleLabel = [[UILabel alloc] initWithFrame:titleLabelFrame];
-        self.titleLabel.textColor = [UIColor darkGrayColor];
+        self.titleLabel.textColor = [ASCFlatUIColor midnightBlueColor];
         self.titleLabel.alpha = 0.9f;
 
         [self.contentView addSubview:self.colorView];
