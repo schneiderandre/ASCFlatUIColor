@@ -15,13 +15,25 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        self.contentView.layer.cornerRadius = 4.f;
+        CGFloat colorViewHeight = CGRectGetHeight(self.contentView.bounds);
+        CGFloat inset = 10.f;
+        self.colorView = [[UIView alloc] initWithFrame:CGRectMake(0,
+                                                                 0,
+                                                                 colorViewHeight,
+                                                                 colorViewHeight)];
+        self.colorView.layer.cornerRadius = colorViewHeight/2;
 
-        self.titleLabel = [[UILabel alloc] initWithFrame:self.contentView.bounds];
-        self.titleLabel.textAlignment = NSTextAlignmentCenter;
-        self.titleLabel.textColor = [UIColor whiteColor];
+        CGFloat titleLabelOriginX = colorViewHeight + inset;
+        CGRect titleLabelFrame = CGRectMake(colorViewHeight + inset,
+                                            0,
+                                            CGRectGetWidth(self.contentView.bounds)-titleLabelOriginX,
+                                            CGRectGetHeight(self.contentView.bounds));
+
+        self.titleLabel = [[UILabel alloc] initWithFrame:titleLabelFrame];
+        self.titleLabel.textColor = [UIColor darkGrayColor];
         self.titleLabel.alpha = 0.9f;
 
+        [self.contentView addSubview:self.colorView];
         [self.contentView addSubview:self.titleLabel];
     }
     return self;
