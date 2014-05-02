@@ -9,9 +9,11 @@
 #import "FlatUIColorViewController.h"
 #import "FlatUIColorCollectionViewCell.h"
 #import <ASCFlatUIColor/ASCFlatUIColor.h>
+#import "ColorInfoView.h"
 
 @interface FlatUIColorViewController()
 @property (nonatomic) NSArray *flatUIColors;
+@property (nonatomic) ColorInfoView *colorInfoView;
 @end
 
 @implementation FlatUIColorViewController
@@ -45,6 +47,9 @@
 
     [self.collectionView registerClass:[FlatUIColorCollectionViewCell class]
             forCellWithReuseIdentifier:@"colorCell"];
+
+    self.colorInfoView = [[ColorInfoView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:self.colorInfoView];
 }
 
 #pragma mark -
@@ -66,6 +71,12 @@
     cell.titleLabel.text = self.flatUIColors[indexPath.row];
 
     return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self.colorInfoView showWithTitle:self.flatUIColors[indexPath.row]
+                  forColorAtIndexPath:indexPath];
 }
 
 @end
