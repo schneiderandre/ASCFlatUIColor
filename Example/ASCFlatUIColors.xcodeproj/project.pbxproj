@@ -208,12 +208,28 @@
 		B7ECD6A31913CE93003EE313 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B7FFA8D31914100F00B2075A /* ColorInfoView */,
+				B7FFA8D41914101700B2075A /* ColorView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B7FFA8D31914100F00B2075A /* ColorInfoView */ = {
+			isa = PBXGroup;
+			children = (
 				B7ECD69C1913C21D003EE313 /* ColorInfoView.h */,
 				B7ECD69D1913C21D003EE313 /* ColorInfoView.m */,
+			);
+			name = ColorInfoView;
+			sourceTree = "<group>";
+		};
+		B7FFA8D41914101700B2075A /* ColorView */ = {
+			isa = PBXGroup;
+			children = (
 				B7ECD6A41913D939003EE313 /* ColorView.h */,
 				B7ECD6A51913D939003EE313 /* ColorView.m */,
 			);
-			name = Views;
+			name = ColorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

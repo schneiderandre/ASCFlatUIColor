@@ -22,7 +22,7 @@
 {
     [super viewDidLoad];
     self.title = @"Flat UI Colors";
-    self.collectionView.backgroundColor = [UIColor whiteColor];
+    self.collectionView.backgroundColor = [ASCFlatUIColor wetAsphaltColor];
 
     self.flatUIColors = @[@"TURQUOISE",
                           @"GREEN SEA",

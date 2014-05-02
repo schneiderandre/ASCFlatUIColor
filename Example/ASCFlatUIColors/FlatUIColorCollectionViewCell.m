@@ -28,4 +28,20 @@
     return self;
 }
 
+- (void)setHighlighted:(BOOL)highlighted
+{
+    [super setHighlighted:highlighted];
+    if (self.highlighted) {
+        [UIView animateWithDuration:0.2 delay:0 options:UIViewAnimationOptionCurveEaseInOut
+                         animations:^{
+            self.transform = CGAffineTransformMakeScale(0.95, 0.95);
+        } completion:NULL];
+    } else {
+        [UIView animateWithDuration:0.2 delay:0 options:UIViewAnimationOptionCurveEaseInOut
+                         animations:^{
+            self.transform = CGAffineTransformIdentity;
+        } completion:NULL];
+    }
+}
+
 @end
