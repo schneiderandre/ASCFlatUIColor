@@ -50,15 +50,19 @@
     self.colorView.rgbInfoLabel.text = [self stringFromColor:self.colorView.backgroundColor];
     self.colorView.titleLabel.text = title;
 
-    [UIView animateWithDuration:0.4 animations:^{
+    [UIView animateWithDuration:0.4
+                          delay:0
+                        options:UIViewAnimationOptionAllowUserInteraction
+                     animations:^{
         self.dimView.alpha = 0.3f;
-    }];
+    } completion:NULL];
 
     [UIView animateWithDuration:0.7
                           delay:0.f
          usingSpringWithDamping:.4
           initialSpringVelocity:0
-                        options:UIViewAnimationOptionCurveEaseInOut animations:^{
+                        options:UIViewAnimationOptionCurveEaseInOut | UIViewAnimationOptionAllowUserInteraction
+                     animations:^{
                             self.colorView.transform = CGAffineTransformIdentity;
                         } completion:NULL];
 }
