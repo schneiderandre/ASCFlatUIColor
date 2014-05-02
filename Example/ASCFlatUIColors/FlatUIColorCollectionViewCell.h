@@ -11,6 +11,5 @@
 @interface FlatUIColorCollectionViewCell : UICollectionViewCell
 
 @property (nonatomic) UILabel *titleLabel;
-@property (nonatomic) UIView *colorView;
 
 @end

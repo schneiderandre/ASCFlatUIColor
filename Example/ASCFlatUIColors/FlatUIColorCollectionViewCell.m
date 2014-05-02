@@ -7,7 +7,6 @@
 //
 
 #import "FlatUIColorCollectionViewCell.h"
-#import <ASCFlatUIColor/ASCFlatUIColor.h>
 
 @implementation FlatUIColorCollectionViewCell
 
@@ -15,26 +14,15 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
-        CGFloat colorViewHeight = CGRectGetHeight(self.contentView.bounds);
         CGFloat inset = 10.f;
-        self.colorView = [[UIView alloc] initWithFrame:CGRectMake(0,
-                                                                 0,
-                                                                 colorViewHeight,
-                                                                 colorViewHeight)];
-        self.colorView.layer.cornerRadius = colorViewHeight/2;
-
-        CGFloat titleLabelOriginX = colorViewHeight + inset;
-        CGRect titleLabelFrame = CGRectMake(colorViewHeight + inset,
-                                            0,
-                                            CGRectGetWidth(self.contentView.bounds)-titleLabelOriginX,
-                                            CGRectGetHeight(self.contentView.bounds));
-
-        self.titleLabel = [[UILabel alloc] initWithFrame:titleLabelFrame];
-        self.titleLabel.textColor = [ASCFlatUIColor midnightBlueColor];
+        CGRect frame = CGRectMake(inset,
+                                  0.f,
+                                  CGRectGetWidth(self.contentView.bounds) - inset,
+                                  CGRectGetHeight(self.contentView.bounds));
+        self.titleLabel = [[UILabel alloc] initWithFrame:frame];
+        self.titleLabel.textColor = [UIColor whiteColor];
         self.titleLabel.alpha = 0.9f;
 
-        [self.contentView addSubview:self.colorView];
         [self.contentView addSubview:self.titleLabel];
     }
     return self;

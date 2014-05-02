@@ -17,11 +17,9 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
     UICollectionViewFlowLayout *flowLayout = [UICollectionViewFlowLayout new];
-    UIEdgeInsets insets = UIEdgeInsetsMake(10.f, 10.f, 10.f, 10.f);
-    CGFloat width = CGRectGetWidth(self.window.bounds) - (insets.left + insets.right);
-    flowLayout.sectionInset = insets;
-    flowLayout.minimumLineSpacing = insets.top;
-    flowLayout.itemSize = CGSizeMake(width, 40.f);
+    CGFloat width = CGRectGetWidth(self.window.bounds);
+    flowLayout.minimumLineSpacing = 0.f;
+    flowLayout.itemSize = CGSizeMake(width, 60.f);
 
     FlatUIColorViewController *flatUIColorViewController = [[FlatUIColorViewController alloc]
                                                             initWithCollectionViewLayout:flowLayout];
