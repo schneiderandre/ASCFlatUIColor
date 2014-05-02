@@ -54,7 +54,7 @@
                           delay:0
                         options:UIViewAnimationOptionAllowUserInteraction
                      animations:^{
-        self.dimView.alpha = 0.3f;
+        self.dimView.alpha = 0.4f;
     } completion:NULL];
 
     [UIView animateWithDuration:0.7
