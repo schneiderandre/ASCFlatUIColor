@@ -6,11 +6,9 @@
 
 A collection of all Flat UI Colors used in [Flat UI](http://designmodo.github.io/Flat-UI/).
 
-![](https://dl.dropboxusercontent.com/u/19150300/Github/ASCFlatUIColor/iphone_white_1.png)
+![](https://dl.dropboxusercontent.com/u/19150300/Github/ASCFlatUIColor/ASCFlatUIColor.gif)
 
-![](https://dl.dropboxusercontent.com/u/19150300/Github/ASCFlatUIColor/iphone_white_2.png)
-
-The complete list can also be found at [flatuicolors.com](http://flatuicolors.com).
+A list of all available colors can also be found here: [flatuicolors.com](http://flatuicolors.com).
 
 ## Usage
 
