@@ -8,86 +8,90 @@
 
 #import "ASCFlatUIColor.h"
 
+@interface ASCFlatUIColor()
++ (UIColor *)colorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue;
+@end
+
 @implementation ASCFlatUIColor
 
 + (UIColor *)turquoiseColor {
-    return [UIColor colorWithRed:26/255.f green:188/255.f blue:156/255.f alpha:1.000];
+    return [self colorWithRed:26 green:188 blue:156];
 }
 
 + (UIColor *)greenSeaColor {
-    return [UIColor colorWithRed:22/255.f green:160/255.f blue:133/255.f alpha:1.000];
+    return [self colorWithRed:22 green:160 blue:133];
 }
 
 + (UIColor *)emeraldColor {
-    return [UIColor colorWithRed:46/255.f green:204/255.f blue:113/255.f alpha:1.000];
+    return [self colorWithRed:46 green:204 blue:113];
 }
 
 + (UIColor *)nephritisColor {
-    return [UIColor colorWithRed:39/255.f green:174/255.f blue:96/255.f alpha:1.000];
+    return [self colorWithRed:39 green:174 blue:96];
 }
 
 + (UIColor *)peterRiverColor {
-    return [UIColor colorWithRed:52/255.f green:152/255.f blue:219/255.f alpha:1.000];
+    return [self colorWithRed:52 green:152 blue:219];
 }
 
 +(UIColor *)belizeHoleColor {
-    return [UIColor colorWithRed:41/255.f green:128/255.f blue:185/255.f alpha:1.000];
+    return [self colorWithRed:41 green:128 blue:185];
 }
 
 + (UIColor *)amethystColor {
-    return [UIColor colorWithRed:155/255.f green:89/255.f blue:182/255.f alpha:1.000];
+    return [self colorWithRed:155 green:89 blue:182];
 }
 
 + (UIColor *)wisteriaColor {
-    return [UIColor colorWithRed:142/255.f green:86/255.f blue:173/255.f alpha:1.000];
+    return [self colorWithRed:142 green:86 blue:173];
 }
 
 + (UIColor *)sunFlowerColor {
-    return [UIColor colorWithRed:241/255.f green:196/255.f blue:15/255.f alpha:1.000];
+    return [self colorWithRed:241 green:196 blue:15];
 }
 
 + (UIColor *)orangeColor {
-    return [UIColor colorWithRed:243/255.f green:156/255.f blue:18/255.f alpha:1.000];
+    return [self colorWithRed:243 green:156 blue:18];
 }
 
 + (UIColor *)carrotColor {
-    return [UIColor colorWithRed:230/255.f green:126/255.f blue:34/255.f alpha:1.000];
+    return [self colorWithRed:230 green:126 blue:34];
 }
 
 + (UIColor *)pumpkinColor {
-    return [UIColor colorWithRed:211/255.f green:84/255.f blue:0/255.f alpha:1.000];
+    return [self colorWithRed:211 green:84 blue:0];
 }
 
 + (UIColor *)alizarinColor {
-    return [UIColor colorWithRed:231/255.f green:76/255.f blue:60/255.f alpha:1.000];
+    return [self colorWithRed:231 green:76 blue:60];
 }
 
 + (UIColor *)pomegranateColor {
-    return [UIColor colorWithRed:192/255.f green:57/255.f blue:43/255.f alpha:1.000];
+    return [self colorWithRed:192 green:57 blue:43];
 }
 
 + (UIColor *)cloudsColor {
-    return [UIColor colorWithRed:236/255.f green:240/255.f blue:241/255.f alpha:1.000];
+    return [self colorWithRed:236 green:240 blue:241];
 }
 
 + (UIColor *)silverColor {
-    return [UIColor colorWithRed:189/255.f green:195/255.f blue:199/255.f alpha:1.000];
+    return [self colorWithRed:189 green:195 blue:199];
 }
 
 + (UIColor *)concreteColor {
-    return [UIColor colorWithRed:149/255.f green:165/255.f blue:166/255.f alpha:1.000];
+    return [self colorWithRed:149 green:165 blue:166];
 }
 
 + (UIColor *)asbestosColor {
-    return [UIColor colorWithRed:127/255.f green:140/255.f blue:141/255.f alpha:1.000];
+    return [self colorWithRed:127 green:140 blue:141];
 }
 
 + (UIColor *)wetAsphaltColor {
-    return [UIColor colorWithRed:52/255.f green:73/255.f blue:94/255.f alpha:1.000];
+    return [self colorWithRed:52 green:73 blue:94];
 }
 
 + (UIColor *)midnightBlueColor {
-    return [UIColor colorWithRed:44/255.f green:62/255.f blue:80/255.f alpha:1.000];
+    return [self colorWithRed:44 green:62 blue:80];
 }
 
 + (UIColor *)colorWithFlatUIColorType:(ASCFlatUIColorType)type {
@@ -155,6 +159,15 @@
         default:
             break;
     }
+}
+
+#pragma mark - Private class methods
+
++ (UIColor *)colorWithRed:(NSUInteger)red
+                    green:(NSUInteger)green
+                     blue:(NSUInteger)blue
+{
+    return [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
 }
 
 @end
