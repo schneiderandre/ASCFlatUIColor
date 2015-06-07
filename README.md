@@ -59,7 +59,7 @@ Drag the `ASCFlatUIColor.h` and `ASCFlatUIColor.m` source files to your project 
 
 ## Author
 
-André Schneider, [@aschndr](http://twitter.com/aschndr)
+André Schneider, [@_schneiderandre](http://twitter.com/_schneiderandre)
 
 ## License
 
