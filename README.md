@@ -6,7 +6,7 @@
 
 A collection of all Flat UI Colors used in [Flat UI](http://designmodo.github.io/Flat-UI/).
 
-![](https://dl.dropboxusercontent.com/u/19150300/Github/ASCFlatUIColor/ASCFlatUIColor.gif)
+![](https://d26dzxoao6i3hh.cloudfront.net/items/0d3z0X0I2y412C2r0r3x/ASCFlatUIColor.gif)
 
 A list of all available colors can also be found here: [flatuicolors.com](http://flatuicolors.com).
 
